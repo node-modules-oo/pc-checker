@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1560327661096,
+  "timestamp": 1560328839132,
   "index": "/pc-checker/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/pc-checker/favicon.ico",
         "/pc-checker/index.html",
-        "/pc-checker/main-es2015.b267da061d1f24ac7584.js",
-        "/pc-checker/main-es5.0612934b775fee39aeab.js",
+        "/pc-checker/main-es2015.07f583ee49f911f59e3c.js",
+        "/pc-checker/main-es5.f4906c19cf3699b02cf4.js",
         "/pc-checker/polyfills-es2015.559e7c8b3a629fdb5581.js",
         "/pc-checker/polyfills-es5.405730e5ac8f727bd7d7.js",
         "/pc-checker/runtime-es2015.858f8dd898b75fe86926.js",
@@ -58,9 +58,9 @@
     "/pc-checker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/pc-checker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/pc-checker/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/pc-checker/index.html": "a918047dc48d32e07e5e901cc1edd137ecede759",
-    "/pc-checker/main-es2015.b267da061d1f24ac7584.js": "338a15cdf78aa8da1f684decdc0087104503e8f3",
-    "/pc-checker/main-es5.0612934b775fee39aeab.js": "29f33be5fbad43b6062301797e90ac9f849f10a4",
+    "/pc-checker/index.html": "de3a0162ea2141bf9aa1f581d2f20a99ef01ea57",
+    "/pc-checker/main-es2015.07f583ee49f911f59e3c.js": "fd292a9e1b90265dc2ea090ef39b09d5b4ed48a2",
+    "/pc-checker/main-es5.f4906c19cf3699b02cf4.js": "be684a4e22a083c56db0e34326497004066a9ea9",
     "/pc-checker/polyfills-es2015.559e7c8b3a629fdb5581.js": "4578bb107ec3b89d39eb3e9800266ebf8cda1f62",
     "/pc-checker/polyfills-es5.405730e5ac8f727bd7d7.js": "042d7744ef82a64c73310f1db253736731a03950",
     "/pc-checker/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
