@@ -23,8 +23,8 @@ export class DataService {
   refresh() {
     return this.db.delete('pc', 'pcno').then(
       success => {
-        // return this.http.get('./assets/data.json').pipe(
-        return this.http.get('https://github.com/police-github/police-github.github.io/raw/master/data.json').pipe(
+        return this.http.get('./assets/data.json').pipe(
+        // return this.http.get('https://github.com/police-github/police-github.github.io/raw/master/data.json').pipe(
           map(res => {
             let promises = [];
             for (let key in res) {
