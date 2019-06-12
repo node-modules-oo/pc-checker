@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span class="icon">PC Checker</span>
+    <span class="spacer"></span>
+    <mat-icon aria-label="Refresh" (click)="refresh()">refresh</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-card>
+  <mat-card-header>
+    <mat-form-field  class="full-width">
+      <input matInput type="number" placeholder="PC No." [(ngModel)]="pcNumber" (input)="search(pcNumber)">
+      <button mat-button *ngIf="pcNumber" matSuffix mat-icon-button aria-label="Clear" (click)="pcNumber=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list role="list">
+      <mat-list-item *ngFor="let item of (result$|async)">
+        <h2 mat-line>{{item.name}} | {{item.position}}</h2>
+        <p mat-line>輔警? | {{item.auxiliary?'Yes':'No'}}</p>
+        <p mat-line>Source | {{item.source.split('/').pop()}}</p>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>
+<ngx-loading [show]="loading"></ngx-loading>
