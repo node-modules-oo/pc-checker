@@ -1,0 +1,88 @@
+{
+  "configVersion": 1,
+  "timestamp": 1560327661096,
+  "index": "/pc-checker/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/pc-checker/favicon.ico",
+        "/pc-checker/index.html",
+        "/pc-checker/main-es2015.b267da061d1f24ac7584.js",
+        "/pc-checker/main-es5.0612934b775fee39aeab.js",
+        "/pc-checker/polyfills-es2015.559e7c8b3a629fdb5581.js",
+        "/pc-checker/polyfills-es5.405730e5ac8f727bd7d7.js",
+        "/pc-checker/runtime-es2015.858f8dd898b75fe86926.js",
+        "/pc-checker/runtime-es5.741402d1d47331ce975c.js",
+        "/pc-checker/styles.bf39fda6f54b0b9d0260.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/pc-checker/MaterialIcons-Regular.012cf6a10129e2275d79.woff",
+        "/pc-checker/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2",
+        "/pc-checker/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf",
+        "/pc-checker/MaterialIcons-Regular.e79bfd88537def476913.eot",
+        "/pc-checker/assets/data.json",
+        "/pc-checker/assets/icons/icon-128x128.png",
+        "/pc-checker/assets/icons/icon-144x144.png",
+        "/pc-checker/assets/icons/icon-152x152.png",
+        "/pc-checker/assets/icons/icon-192x192.png",
+        "/pc-checker/assets/icons/icon-384x384.png",
+        "/pc-checker/assets/icons/icon-512x512.png",
+        "/pc-checker/assets/icons/icon-72x72.png",
+        "/pc-checker/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/pc-checker/MaterialIcons-Regular.012cf6a10129e2275d79.woff": "c6c953c2ccb2ca9abb21db8dbf473b5a435f0082",
+    "/pc-checker/MaterialIcons-Regular.570eb83859dc23dd0eec.woff2": "09963592e8c953cc7e14e3fb0a5b05d5042e8435",
+    "/pc-checker/MaterialIcons-Regular.a37b0c01c0baf1888ca8.ttf": "fc05de31234e0090f7ddc28ce1b23af4026cb1da",
+    "/pc-checker/MaterialIcons-Regular.e79bfd88537def476913.eot": "26fb8cecb5512223277b4d290a24492a0f09ede1",
+    "/pc-checker/assets/data.json": "8e7365a8673948616fed9a4848606ee0f78b6706",
+    "/pc-checker/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/pc-checker/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/pc-checker/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/pc-checker/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/pc-checker/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/pc-checker/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/pc-checker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/pc-checker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/pc-checker/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/pc-checker/index.html": "a918047dc48d32e07e5e901cc1edd137ecede759",
+    "/pc-checker/main-es2015.b267da061d1f24ac7584.js": "338a15cdf78aa8da1f684decdc0087104503e8f3",
+    "/pc-checker/main-es5.0612934b775fee39aeab.js": "29f33be5fbad43b6062301797e90ac9f849f10a4",
+    "/pc-checker/polyfills-es2015.559e7c8b3a629fdb5581.js": "4578bb107ec3b89d39eb3e9800266ebf8cda1f62",
+    "/pc-checker/polyfills-es5.405730e5ac8f727bd7d7.js": "042d7744ef82a64c73310f1db253736731a03950",
+    "/pc-checker/runtime-es2015.858f8dd898b75fe86926.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/pc-checker/runtime-es5.741402d1d47331ce975c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/pc-checker/styles.bf39fda6f54b0b9d0260.css": "dfa38c2660797b4bd88ab303cbc11059526858a5"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
